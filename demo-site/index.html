@@ -1,21 +1,61 @@
+--- 
+layout: default 
+title: Home 
 ---
-layout: default
----
-
-<div>
-
-  <h1>Posts</h1>
-
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+<section class="banner">
+    <h1>Very briefly telling you who we are</h1>
+</section>
+<main>
+    <section class="intro">
+        <article class="col-sm-12 col-md-6 col-lg-6">
+          <div class="wrapper">
+            <img src="#" alt="this is where an image will go">            
+          </div>
+        </article>
+        <article class="col-sm-12 col-md-6 col-lg-6">
+          <div class="wrapper">
+            <h2>Who's teaching my kid?</h2>
+            <p>This is your mission statement</p>
+            <div>
+                <a href="#" class="button">Button</a>
+            </div>            
+          </div>
+        </article>
+    </section>
+    <section class="lessons">
+        <article class="col-sm-12 col-md-4 col-lg-4">
+          <div class="wrapper">
+              <img src="#" alt="this is where an image will go">
+              <div>
+                  <a href="#" class="button">Button</a>
+              </div>
+          </div>
+        </article>
+        <article class="col-sm-12 col-md-4 col-lg-4">
+          <div class="wrapper">
+              <img src="#" alt="this is where an image will go">
+              <div>
+                  <a href="#" class="button">Button</a>
+              </div>
+          </div>
+        </article>
+        <article class="col-sm-12 col-md-4 col-lg-4">
+          <div class="wrapper">
+              <img src="#" alt="this is where an image will go">
+              <div>
+                  <a href="#" class="button">Button</a>
+              </div>
+          </div>
+        </article>
+    </section>
+    <section class="location">
+      <article class="col-sm-12 col-md-6 col-lg-6">
+        <div class="wrapper">
+          <h2>Where you are</h2>
+          <div>icon and number</div>
+          <div>icon and address</div>
+        </div>
+      </article>
+      <article class="col-sm-12 col-md-6 col-lg-6"></article>
+    </section>
+</main>
